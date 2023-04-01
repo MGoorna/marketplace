@@ -1,0 +1,34 @@
+.gigs{
+  .container{
+    width: 1400px;
+    margin: 0 auto;
+  }
+  .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .gigs__listings{
+    grid-gap: 32px;
+    display: grid;
+
+    width: 100%;
+    grid-template-columns: repeat(4,1fr);
+    min-height: 370px;
+  }
+  .gig-card{
+    min-width: 245px;
+    width: 350px;
+    height:100px;
+    background-color: aqua;
+
+    border: 1px solid black;
+  }
+}

@@ -1,0 +1,21 @@
+@import "./../../index.scss";
+
+
+.trustedby{
+  background-color: #fafafa;
+  .container{
+    margin: 0 auto;
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: $gap-large;
+    color: #b5b6ba;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: $gap-large;
+  }
+}
